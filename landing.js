@@ -2,10 +2,12 @@ var index;
 fetch('items.json')
 .then(function(response){
     return response.json();
+    
 })
 .then( (data)=>{
     let param=new URL(document.location).searchParams;
     index=param.get("id")-1;
+    console.log(data);
     appendData(data);
 })
 .catch(function (err){
