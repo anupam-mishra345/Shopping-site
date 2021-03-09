@@ -13,7 +13,14 @@
         "size":[6,7,8,9,10],
         "images":["01/01-61L4ZMMwgCL._UL1110_.jpg","01/02-61Q6syubtbL._UL1110_.jpg","01/03-61djn1CRqCL._UL1110_.jpg",
             "01/04-61OC6Doy0AL._UL1110_.jpg","01/05-61FG-iUUCKL._UL1110_.jpg","01/06-61BzmSQc+1L._UL1110_.jpg",
-            "01/07-612JsbgBLbL._UL1110_.jpg","01/08-619QSGG-BuL._UL1110_.jpg","01/09-61v+f0pEluL._UL1110_.jpg"]
+            "01/07-612JsbgBLbL._UL1110_.jpg","01/08-619QSGG-BuL._UL1110_.jpg","01/09-61v+f0pEluL._UL1110_.jpg"],
+        "comments":[{
+            "reviewBy":"Anupam M",
+            "review":"Very good shoes"
+        },{
+            "reviewBy":"Chetan",
+            "review":"Nice footwears"
+        }]
     },
     {
         "id":2,
@@ -28,7 +35,14 @@
         "rating":4,
         "size":[6,7,8,9,10],
         "images":["02/01-6153xHdmEqL._UL1200_.jpg","02/02-61dyBpPZ4jL._UL1200_.jpg","02/03-41mEDEZ-OGL.jpg","02/04-51yyLo7cNDL._UL1200_.jpg",
-            "02/05-71AEQs2XX9L._UL1200_.jpg","02/06-51vJ2ffNo+L.jpg","02/07-41EhUd5s9cL.jpg"]        
+            "02/05-71AEQs2XX9L._UL1200_.jpg","02/06-51vJ2ffNo+L.jpg","02/07-41EhUd5s9cL.jpg"],
+        "comments":[{
+                "reviewBy":"Sindhu VC",
+                "review":"Fabulous shoes"
+            },{
+                "reviewBy":"Gagana",
+                "review":"Good for walking. Nice"
+            }]        
     },
     {
         "id":3,
@@ -43,7 +57,14 @@
         "rating":4.5,
         "size":[6,7,8,9,10],
         "images":["03/01-71PAi7YraiL._UL1500_.jpg","03/02-71Wq6zfJ3UL._UL1500_.jpg","03/03-71DwQtAIebL._UL1500_.jpg","03/04-71re0PNIi+L._UL1500_.jpg",
-            "03/05-71Gsymgan8L._UL1500_.jpg","03/06-61lJBofY2ML._UL1500_.jpg","03/07-71lWd1XxrRL._UL1500_.jpg"]        
+            "03/05-71Gsymgan8L._UL1500_.jpg","03/06-61lJBofY2ML._UL1500_.jpg","03/07-71lWd1XxrRL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Sonu S.",
+                "review":"Comfortable"
+            },{
+                "reviewBy":"Devesh K.",
+                "review":"You can purchase this product."
+            }]        
     },
     {
         "id":4,
@@ -58,7 +79,14 @@
         "rating":4.8,
         "size":[6,7,8,9,10],
         "images":["04/01-71kuEKP7WxL._UL1500_.jpg","04/02-71BmXWa8rUL._UL1500_.jpg","04/03-81F9kQOO-OL._UL1500_.jpg",
-            "04/04-71OZBFiexvL._UL1500_.jpg","04/05-81UK6o1VdEL._UL1500_.jpg","04/06-81ma1Pw9+hL._UL1500_.jpg"]        
+            "04/04-71OZBFiexvL._UL1500_.jpg","04/05-81UK6o1VdEL._UL1500_.jpg","04/06-81ma1Pw9+hL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Shanmukha K.",
+                "review":"Very good shoes"
+            },{
+                "reviewBy":"Darshan K G",
+                "review":"Nice footwears"
+            }]        
     },
     {
         "id":5,
@@ -73,7 +101,14 @@
         "rating":4,
         "size":[6,7,8,9,10],
         "images":["05/01-7189jbJRKmL._UL1500_.jpg","05/02-71mGoDnJhZL._UL1500_.jpg","05/03-81VeCJ1LeYL._UL1500_.jpg",
-            "05/04-71sSImgHEGL._UL1500_.jpg","05/05-71o9q3cZJHL._UL1500_.jpg","05/06-61iaeASN3BL._UL1500_.jpg"]        
+            "05/04-71sSImgHEGL._UL1500_.jpg","05/05-71o9q3cZJHL._UL1500_.jpg","05/06-61iaeASN3BL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Shakrukh Khan",
+                "review":"Product is good"
+            },{
+                "reviewBy":"Ratan Tata",
+                "review":"Belive this product"
+            }]                
     },
     {
         "id":6,
@@ -89,6 +124,13 @@
         "size":[6,7,8,9,10],
         "images":["06/01-81htR4hlInL._UL1500_.jpg","06/02-81itS1516WL._UL1500_.jpg","06/03-81aYYqoVWtL._UL1500_.jpg",
             "06/04-71yeP4q61FL._UL1500_.jpg","06/05-81pYR+jbiHL._UL1500_.jpg","06/06-810sel8eB7L._UL1500_.jpg",
-            "06/07-810A8jqR+EL._UL1500_.jpg"]        
+            "06/07-810A8jqR+EL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Munesh T.",
+                "review":"Very good shoes"
+            },{
+                "reviewBy":"Sachin K.",
+                "review":"Nice footwears"
+            }]        
     }
 ]
