@@ -2,12 +2,10 @@ var index;
 fetch('items.json')
 .then(function(response){
     return response.json();
-    
 })
 .then( (data)=>{
     let param=new URL(document.location).searchParams;
     index=param.get("id")-1;
-    console.log(data);
     appendData(data);
 })
 .catch(function (err){
@@ -47,6 +45,17 @@ function appendData(data){
     document.getElementById("lifestyle").innerHTML+=data[index].lifeStyle;
     document.getElementById("material").innerHTML+=data[index].material;
     document.getElementById("size").innerHTML+=data[index].size;
+
+    for(let j=0;j<data[i].comments.length;j++){
+        let maindiv=document.getElementById("review");
+        let cmntdiv=document.createElement("div");
+        let cmnt=`
+        <span>${data[index].comments[j].review}</span><br>
+        <b><span>By: ${data[index].comments[j].reviewBy} </span></b><hr>
+        `
+        cmntdiv.innerHTML+=cmnt;
+        maindiv.appendChild(cmntdiv);
+    }
 }
 
 function setImages(data,index,i){
