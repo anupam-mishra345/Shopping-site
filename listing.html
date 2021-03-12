@@ -13,13 +13,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="file.css">
     
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Using Internal CSS-->
     <style>
       #navId{
-        background-color: #cd7f32;
+        background-color: #B4703F;
       }
       #navId li a{
         color: white;
+        font-weight: bolder;
       }
       #navId li a:hover{
         color: #7e3517;
@@ -32,24 +35,30 @@
         flex-wrap: wrap;
       }
       .filter{
-        background-color: #F7AE6E;
+        background-color: #B4703F;
+        color: white;
       }
       .footer {
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #cd7f32;
+        background-color: #B4703F;
         color: white;
-        text-align: center;
-}
+      }
+      .footer a:link{
+        color: black;
+      }
+      .footer a:visited{
+        color: black;
+      }
+      body{
+        font-family: Book Antiqua;
+      }
     </style>
 </head>
 
 <body>
-  <br>
+  
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light container text-white" id="navId">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light container-fluid mt-2" id="navId">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="logo1.jpg" height="50px" width="auto" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,8 +77,8 @@
           </li>
         </ul>
         <form class="d-flex mb-2 mb-lg-0 me-auto">
-          <input class="form-control me-2" style="width: 400px;" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" style="width: 400px;" type="search" placeholder="Type Here" aria-label="Search">
+          
         </form>
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
@@ -83,23 +92,23 @@
     </div>
   </nav>
 
-  <br><br>
+  
 
   <!--Carousel Images-->
-  <div class="container-fluid">
+  <div class="container-fluid mt-2">
     <div class="row">
 
     
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="3000">
-        <center><img src="Shoes - Buy Shoes Online for Men, Women & Kids 1.png"  class="d-block" width="90%" height="auto" alt="..."></center>
+        <center><img src="Shoes - Buy Shoes Online for Men, Women & Kids 1.png"  class="d-block" width="100%" height="auto" alt="..."></center>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
-        <center><img src="Shoes - Buy Shoes Online for Men, Women & Kids 2.png"  class="d-block" width="90%" height="auto" alt="..."></center>
+        <center><img src="Shoes - Buy Shoes Online for Men, Women & Kids 2.png"  class="d-block" width="100%" height="auto" alt="..."></center>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
-        <center><img src="Shoes - Buy Shoes Online for Men, Women & Kids 3.png"  class="d-block" width="90%" height="auto" alt="..."></center>
+        <center><img src="Shoes - Buy Shoes Online for Men, Women & Kids 3.png"  class="d-block" width="100%" height="auto" alt="..."></center>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
@@ -114,12 +123,13 @@
 
 </div>
 </div>
-  <br><br>
+  
 <!--Filters Section-->
-  <div class="container-fluid">
+  <div class="container-fluid mt-4">
     <div class="row">
       <div class="col-sm-2" >
-        <div class="d-flex flex-column bd-highlight sticky-top filter">
+        <div class=" sticky-top">
+        <div class="d-flex flex-column bd-highlight filter">
 
 <!--Filters Experiment start-->
 <div id="accordion">
@@ -137,16 +147,16 @@
         <label>Sparx</label>
       </div>
       <div>
-          <input type="checkbox" class="brnd" value="Peelu">
-          <label>Peelu</label>
+          <input type="checkbox" class="brnd" value="Nike">
+          <label>Nike</label>
         </div>
       <div>
           <input type="checkbox" class="brnd" value="Paragon">
           <label>Paragon</label>
         </div>
         <div>
-          <input type="checkbox" class="brnd" value="Nubeno">
-          <label>Nubeno</label>
+          <input type="checkbox" class="brnd" value="Puma">
+          <label>Puma</label>
         </div>
         <div>
           <input type="checkbox" class="brnd" value="Centrino">
@@ -195,23 +205,23 @@
     <div id="collapseThree" class="collapse" data-parent="#accordion">
       <div class="card-body">
           <div>
-              <input type="checkbox" class="" value="">
-              <label>Rs.100 to Rs.499</label>
+              <input type="checkbox" class="price" value="p1">
+              <label>&#8377;100 to &#8377;499</label>
             </div>
             <div>
-                <input type="checkbox" class="">
-                <label>Rs.500 to Rs.1499</label>
+                <input type="checkbox" class="price" value="p2">
+                <label>&#8377;500 to &#8377;1499</label>
               </div>
             <div>
-                <input type="checkbox" class="">
-                <label>Rs.1500-Rs.2500</label>
+                <input type="checkbox" class="price" value="p3">
+                <label>&#8377;1500 to &#8377;2500</label>
               </div>
       </div>
     </div>
   </div>
 
   <div class="card filter">
-    <div class="card-header"><center><button type="button" class="btn" style="background-color: #7e3517;color: white;" onclick="applyFilters()">Apply Filters</button></center></div>
+    <div class="card-header"><center><button type="button" class="btn" style="background-color:#532503;color: white;" onclick="applyFilters()">Apply Filters</button></center></div>
   </div>
 
 
@@ -222,19 +232,45 @@
          
         </div>
       </div>
+      </div>
       <div class="col-sm-10 justify-content-evenly p-2" id="mainId">
         
       </div>
     </div>
   </div>
   <br>
-  <br><br>
+  
 <!--Footer Section-->
-  <div class="container-fluid">
+  
+<div class="container-fluid mb-2">
     <div class="footer">
-      <p>Footer</p>
+      <br>
+      <center>
+      <a href=""><span class="fa-stack fa-lg ">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span></a>
+      <a href=""><span class="fa-stack fa-lg ">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span></a>
+      <a href=""><span class="fa-stack fa-lg ">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+      </span></a></center>
+      
+      <center class="mt-2">
+        <span>Info</span> | <span>Support</span> | <span>Marketing</span>
+      </center>
+      
+      <center class="mt-2">
+        <span>Terms of use</span> | <span>Privacy Policy</span>
+      </center>
+      <center class="mt-2">
+        <span><i class="fa fa-copyright"></i> 2021 All copyrights reserved</span>
+      </center>
+      <br>
     </div>
-    
   </div>
 
 </body>
