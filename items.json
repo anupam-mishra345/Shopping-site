@@ -7,7 +7,7 @@
         "color":"Black",
         "material":"Canvas Fabric",
         "type":"Sneakers",
-        "department":"Mens",
+        "department":"Men",
         "lifeStyle":"Casual",
         "rating":4.5,
         "size":[6,7,8,9,10],
@@ -30,7 +30,7 @@
         "color":"Blue",
         "material":"Canvas Fabric",
         "type":"Sports",
-        "department":"Mens",
+        "department":"Men",
         "lifeStyle":"Running, Outdoor Sports, Cycling, Gym and Training",
         "rating":4,
         "size":[6,7,8,9,10],
@@ -52,7 +52,7 @@
         "color":"Brown",
         "material":"Synthetic Rubber",
         "type":"Sandals",
-        "department":"Mens",
+        "department":"Men",
         "lifeStyle":"Casual",
         "rating":4.5,
         "size":[6,7,8,9,10],
@@ -74,7 +74,7 @@
         "color":"Black",
         "material":"Synthetic Leather",
         "type":"Formal Shoes",
-        "department":"Mens",
+        "department":"Men",
         "lifeStyle":"Formal",
         "rating":4.8,
         "size":[6,7,8,9,10],
@@ -96,7 +96,7 @@
         "color":"Brown",
         "material":"Synthetic",
         "type":"Sneakers",
-        "department":"Mens",
+        "department":"Men",
         "lifeStyle":"Casual",
         "rating":4,
         "size":[6,7,8,9,10],
@@ -118,7 +118,7 @@
         "color":"Black",
         "material":"Textile",
         "type":"Sports",
-        "department":"Mens",
+        "department":"Men",
         "lifeStyle":"Running, Walking",
         "rating":3.7,
         "size":[6,7,8,9,10],
@@ -131,6 +131,138 @@
             },{
                 "reviewBy":"Sachin K.",
                 "review":"Nice footwears"
+            }]        
+    },
+    {
+        "id":7,
+        "name":"Puma Men's Rapid Runner IDP Sports",
+        "brand":"Puma",
+        "price":2399,
+        "color":"Black",
+        "material":"Synthetic",
+        "type":"Sports",
+        "department":"Men",
+        "lifeStyle":"Running, Walking",
+        "rating":4.5,
+        "size":[6,7,8,9,10],
+        "images":["07/01-61NtUo0zFeL._UL1200_.jpg","07/02-61ijgM1Vy3L._UL1200_.jpg","07/03-61fw3lJkhKL._UL1200_.jpg",
+            "07/04-61SBp5s+aDL._UL1200_.jpg","07/05-51pkRUuAG-L._UL1200_.jpg","07/06-51+9Qn6J18L._UL1200_.jpg"],
+        "comments":[{
+                "reviewBy":"Nagaraj",
+                "review":"Quality based product"
+            },{
+                "reviewBy":"Shashi T.",
+                "review":"Excellent footwears"
+            }]        
+    },
+    {
+        "id":8,
+        "name":"Nike Unisex's Flex Runner (Gs) Running Shoes",
+        "brand":"Nike",
+        "price":1865,
+        "color":"Blue",
+        "material":"Stretch mesh fabric",
+        "type":"Sports",
+        "department":"Unisex",
+        "lifeStyle":"Running, Walking",
+        "rating":4.8,
+        "size":[6,7,8,9,10],
+        "images":["08/01-612PY-5YV8L._UL1434_.jpg","08/02-61r-fc+dj+L._UL1452_.jpg","08/03-61A1osy58KL._UL1271_.jpg",
+            "08/04-51ZLu4y1CrL._UL1474_.jpg"],
+        "comments":[{
+                "reviewBy":"Md. Inush",
+                "review":"Quality based product"
+            },{
+                "reviewBy":"Shashi T.",
+                "review":"Excellent footwears"
+            }]        
+    },
+    {
+        "id":9,
+        "name":"Nike Boys JR Phantom VSN Club DF IC Football Shoes",
+        "brand":"Nike",
+        "price":1452,
+        "color":"Red",
+        "material":"Synthetic fabric",
+        "type":"Sports",
+        "department":"Men",
+        "lifeStyle":"Running, Walking",
+        "rating":4,
+        "size":[6,7,8,9,10],
+        "images":["09/01-81p-HrpBYcL._UL1500_.jpg","09/02-71aO7grpD1L._UL1500_.jpg","09/03-71VbjhWV8yL._UL1500_.jpg",
+            "09/04-71wEWoWXj9L._UL1500_.jpg","09/05-81FVc621mIL._UL1500_.jpg","09/06-81nvk8l-s+L._UL1500_.jpg","09/07-81I1XHrZUGL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Md. Inush",
+                "review":"Quality based product"
+            },{
+                "reviewBy":"Shashi T.",
+                "review":"Excellent footwears"
+            }]        
+    },
+    {
+        "id":10,
+        "name":"Puma Mens Zod Runner V3 Idp Running Shoes Running Shoe",
+        "brand":"Puma",
+        "price":1579,
+        "color":"Blue",
+        "material":"Synthetic Rubber, textile",
+        "type":"Casual",
+        "department":"Men",
+        "lifeStyle":"Running, Walking",
+        "rating":4,
+        "size":[6,7,8,9,10],
+        "images":["10/01-71CL9uy6UcL._UL1500_.jpg","10/02-81xUCeFRvPL._UL1500_.jpg","10/03-81oUtZQeNqL._UL1500_.jpg",
+            "10/04-71ez-DIMx1L._UL1500_.jpg","10/05-71P8Q843FbL._UL1500_.jpg","10/06-71pLq3LZCeL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Md. Inush",
+                "review":"Quality based product"
+            },{
+                "reviewBy":"Shashi T.",
+                "review":"Excellent footwears"
+            }]        
+    },
+    {
+        "id":11,
+        "name":"Sparx Men's Mesh Loafers",
+        "brand":"Sparx",
+        "price":999,
+        "color":"Blue",
+        "material":"Canvas fabric",
+        "type":"Casual",
+        "department":"Men",
+        "lifeStyle":"Party, Running, Walking",
+        "rating":4,
+        "size":[6,7,8,9,10],
+        "images":["11/01-71xIDhD01OL._UL1500_.jpg","11/02-71xaraUmmnL._UL1500_.jpg","11/03-71ScKJBSCtL._UL1500_.jpg",
+            "11/04-81L5chphoLL._UL1500_.jpg","11/05-81o4p1zqdCL._UL1500_.jpg","11/06-816pjV-u+GL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Md. Inush",
+                "review":"Quality based product"
+            },{
+                "reviewBy":"Shashi T.",
+                "review":"Excellent footwears"
+            }]        
+    },
+    {
+        "id":12,
+        "name":"PARAGON Stimulus Men's Grey Sandals",
+        "brand":"Paragon",
+        "price":476,
+        "color":"Blue",
+        "material":"Synthetic",
+        "type":"Sandals",
+        "department":"Men",
+        "lifeStyle":"Casual",
+        "rating":4.2,
+        "size":[6,7,8,9,10],
+        "images":["12/01-71MdPG6RmDL._UL1500_.jpg","12/02-71Zm7FmD4uL._UL1487_.jpg","12/03-71v1L+FfuPL._UL1500_.jpg",
+            "12/04-71zn+PDv8RL._UL1500_.jpg","12/05-81cdDgB63LL._UL1500_.jpg","12/06-71Wj-jePgzL._UL1500_.jpg","12/07-81sySmF6-cL._UL1500_.jpg"],
+        "comments":[{
+                "reviewBy":"Md. Inush",
+                "review":"Quality based product"
+            },{
+                "reviewBy":"Shashi T.",
+                "review":"Excellent footwears"
             }]        
     }
 ]
