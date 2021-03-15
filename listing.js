@@ -5,6 +5,7 @@ fetch('items.json')
   })
   .then( (myData)=>{
       data=myData;
+      sin=myData;
      display(data);
      // applyFilters();
       console.log(data[0].name)
@@ -240,5 +241,31 @@ function applyFilters(){
 }
 
 function display(data){
+    document.getElementById("mainId").innerHTML="";
     appendData(data);
 }
+
+
+var input=document.getElementById("myInput");
+console.log(input);
+input.addEventListener('keyUp',(data)=>{
+    console.log(data);
+});
+
+//var char=document.getElementById("CharacterList");
+var searchbar=document.getElementById("myInput");
+ sin=[];
+
+searchbar.addEventListener('keyup', (e)=>{
+    var searchString=e.target.value;
+    var filteredCharacters=sin.filter((element)=>{
+        let eleN=element.name.toLowerCase();
+        let eleB=element.brand.toLowerCase();
+        let eleC=element.color.toLowerCase();
+        return (eleN.includes(searchString)||eleB.includes(searchString)||eleC.includes(searchString));
+        
+    });
+    console.log(filteredCharacters);
+    display(filteredCharacters)
+    
+})
